@@ -69,7 +69,6 @@ Pod::Spec.new do |s|
 
     cs.subspec "CocoaLumberjack" do |cscl|
       cscl.dependency 'GCDWebServer/WebUploader/Core'
-      cscl.dependency 'GCDWebServer/CocoaLumberjack'
     end
   end 
 end
